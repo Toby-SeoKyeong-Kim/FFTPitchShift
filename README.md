@@ -1,5 +1,8 @@
 # FFTPitchShift
 
+## Important!!
+This is plugin performce the best when DAW has at least 1024 sample rate. In AbletonLive 11, changing I/O sample rate in the middle of the process is forbidden and might cause an error.  
+
 ## VST3 Plugin
 This is a VST3 plugin. You can include FFTPitchShift.vst3 file into your VST3 folder and use in your DAW that supports VST3.
 This folder provides Mac build environment but you can also copy the source code and build it in your desirable environments.
