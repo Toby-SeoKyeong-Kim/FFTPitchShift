@@ -1,6 +1,6 @@
 # FFTPitchShift
 
-##Important!!
+## Important!!
 This is plugin performce the best when DAW has at least 1024 sample rate. In AbletonLive 11, changing I/O sample rate in the middle of the process is forbidden and might cause an error.  
 
 ## VST3 Plugin
