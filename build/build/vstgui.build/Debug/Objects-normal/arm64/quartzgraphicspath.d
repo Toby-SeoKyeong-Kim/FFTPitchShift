@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/quartzgraphicspath.cpp \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/quartzgraphicspath.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../cgraphicspath.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../vstguifwd.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../vstguibase.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../vstguidebug.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../ccolor.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../crect.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../cpoint.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../common/gradientbase.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../common/../iplatformgradient.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../common/../../ccolor.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../iplatformgraphicspath.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../common/../../cgraphicstransform.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../common/../../cpoint.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../common/../../crect.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/macglobals.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/macfactory.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../platformfactory.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../common/../../vstguifwd.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../common/../platformfwd.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../common/../../vstguibase.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cfontmac.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../iplatformfont.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../cgradient.h

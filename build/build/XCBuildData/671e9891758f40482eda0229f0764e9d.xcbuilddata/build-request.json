@@ -1,0 +1,103 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "5128418889700791b36bb1d8f0d59808ad1b42e0e6f27ab63e48f288e043edc2"
+    },
+    {
+      "guid" : "5128418889700791b36bb1d8f0d59808162cbcbe15092e3014df6fef8d70557c"
+    },
+    {
+      "guid" : "5128418889700791b36bb1d8f0d598083db2b985b046528093d5341e124b4373"
+    },
+    {
+      "guid" : "5128418889700791b36bb1d8f0d5980846a6a34d58a7168ba33725a2fc268b0a"
+    },
+    {
+      "guid" : "5128418889700791b36bb1d8f0d59808d6f4458f5ad124f91178bf9164ab2c73"
+    },
+    {
+      "guid" : "5128418889700791b36bb1d8f0d598084fc580381ec1efb95e3894645559f1c2"
+    },
+    {
+      "guid" : "5128418889700791b36bb1d8f0d59808e8d72216a91eae6c8c3f8b1627ad8892"
+    },
+    {
+      "guid" : "5128418889700791b36bb1d8f0d5980890e9d8f240a2011a6c8f63eedaffcd8d"
+    },
+    {
+      "guid" : "5128418889700791b36bb1d8f0d59808090d02ac6de4367ffa7733b5dbd561ac"
+    },
+    {
+      "guid" : "5128418889700791b36bb1d8f0d598081bfadebbc675554fd44ef59a2baee1e7"
+    },
+    {
+      "guid" : "5128418889700791b36bb1d8f0d59808396fcb50f5860f5ba41f16a9f14c6a94"
+    },
+    {
+      "guid" : "5128418889700791b36bb1d8f0d59808d16b4b416832515f42af64abd519f04d"
+    },
+    {
+      "guid" : "5128418889700791b36bb1d8f0d59808b8687e6d121737129cdd2e9a5a060618"
+    },
+    {
+      "guid" : "5128418889700791b36bb1d8f0d59808a5b534ce7b69fd5f49a5019c3f542c8f"
+    },
+    {
+      "guid" : "5128418889700791b36bb1d8f0d59808fc677c8ffc3d41eb17f2672db7c19742"
+    },
+    {
+      "guid" : "5128418889700791b36bb1d8f0d598080b6243b9c26a48c7cab19414d66578dd"
+    }
+  ],
+  "containerPath" : "/Users/seokyeongkim/Downloads/VST_SDK/VSTApps/FFTPitchShift/build/FFTPitchShift.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx14.4",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/seokyeongkim/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/seokyeongkim/Library/Developer/Xcode/DerivedData/FFTPitchShift-fnptajypzlyfuwfidrbkafsymrbi/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/seokyeongkim/Library/Developer/Xcode/DerivedData/FFTPitchShift-fnptajypzlyfuwfidrbkafsymrbi/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

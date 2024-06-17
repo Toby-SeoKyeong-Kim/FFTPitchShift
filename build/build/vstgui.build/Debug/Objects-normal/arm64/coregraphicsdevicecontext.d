@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/coregraphicsdevicecontext.mm \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../ccolor.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../vstguibase.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../vstguidebug.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../vstguifwd.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../cdrawdefs.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../cgraphicstransform.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../cpoint.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../crect.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../clinestyle.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cgbitmap.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../iplatformbitmap.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../platformfwd.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/macglobals.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/macfactory.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../platformfactory.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/coregraphicsdevicecontext.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../iplatformgraphicsdevice.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/quartzgraphicspath.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../../cgraphicspath.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../common/gradientbase.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../common/../iplatformgradient.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/../iplatformgraphicspath.h

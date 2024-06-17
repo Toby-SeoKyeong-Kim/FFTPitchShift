@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/animations.cpp \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/animations.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../vstguifwd.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../vstguibase.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../vstguidebug.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/ianimationtarget.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../crect.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../cpoint.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../cview.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../vstkeycode.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../cbuttonstate.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../cgraphicstransform.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../cframe.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../cviewcontainer.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../cdrawdefs.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../optional.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../platform/iplatformframecallback.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../platform/../vstguifwd.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../controls/ccontrol.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../controls/../cview.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/animation/../controls/../ifocusdrawing.h

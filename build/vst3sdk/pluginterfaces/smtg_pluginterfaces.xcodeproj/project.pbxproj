@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5C208213928D4BA982D5257F /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 233E721E471B4C85A15A18D4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				7387B1FC8F8A98AFC8EAE711 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				0CC9047808E14B6A873743F8 /* PBXTargetDependency */,
+				547FD96391404FF89E2301BC /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		8432385D700A46DDACB74EFF /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EBE0F3145F1A4D6CBC9BCCD1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				285C96227685B634A3866579 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0A5E01D4AF594792931B7925 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstinterappaudio.h */ = {isa = PBXBuildFile; fileRef = 15425C7030004E3F98C17273 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstinterappaudio.h */; };
+		0C0E8C7D139D4189A2578FD9 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/fstrdefs.h */ = {isa = PBXBuildFile; fileRef = D21B50EC988C46AAA2D2EA83 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/fstrdefs.h */; };
+		0C4027E8454940F19AD523C1 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/falignpush.h */ = {isa = PBXBuildFile; fileRef = C2D05146CC3B476F8DB064C6 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/falignpush.h */; };
+		0D51111413CD4BA69999D23D /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstnoteexpression.h */ = {isa = PBXBuildFile; fileRef = DB4E450383E14C788318A5D2 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstnoteexpression.h */; };
+		101F18318E2349A5A2E3241E /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstprocesscontext.h */ = {isa = PBXBuildFile; fileRef = EC1C5B99DFE748DBB25FC9AF /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstprocesscontext.h */; };
+		1020CAD2B9424F35AA53CB78 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/typesizecheck.h */ = {isa = PBXBuildFile; fileRef = D9664BCE133B4FE0912A8ECA /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/typesizecheck.h */; };
+		10ACE5B9E2E84DF0AE9848E5 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstphysicalui.h */ = {isa = PBXBuildFile; fileRef = DEB5807F049649CDBE791D71 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstphysicalui.h */; };
+		131088D8A3BD457CAD389D67 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/keycodes.h */ = {isa = PBXBuildFile; fileRef = E8C6A66600724AF698C170E9 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/keycodes.h */; };
+		18B84D41A231497C8B491029 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/funknown.cpp */ = {isa = PBXBuildFile; fileRef = F6368713B77F4646904507C9 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/funknown.cpp */; };
+		19ED79B9CD1C4BDDA6DCE08C /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmidilearn.h */ = {isa = PBXBuildFile; fileRef = 255D2DA5FC3B49CAB0563631 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmidilearn.h */; };
+		1E5FEE6450FF4B018F1E5F9D /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstrepresentation.h */ = {isa = PBXBuildFile; fileRef = 07E4718FD64F4FEAAA192235 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstrepresentation.h */; };
+		27D362A88ADA4104A0BD6E6A /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstparameterchanges.h */ = {isa = PBXBuildFile; fileRef = 3B7455F6A2704EF39E3141A5 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstparameterchanges.h */; };
+		2D9A4FD216654F75A861621F /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/vstspeaker.h */ = {isa = PBXBuildFile; fileRef = B441AAE31AF245E19FB70CC2 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/vstspeaker.h */; };
+		2E418727605A4C2E822CE4D3 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivsteditcontroller.h */ = {isa = PBXBuildFile; fileRef = 01DEF930F13846808D7D3A2A /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivsteditcontroller.h */; };
+		3A82EB465BFE44CAA2B941AE /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/vsttypes.h */ = {isa = PBXBuildFile; fileRef = 3B56CA7F33CA46FF979162C0 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/vsttypes.h */; };
+		41612BF1E3E9478FA127B06F /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/futils.h */ = {isa = PBXBuildFile; fileRef = B16A4618832A412AB58FE914 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/futils.h */; };
+		43CD77FA86AD4F83A2AAB071 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/iupdatehandler.h */ = {isa = PBXBuildFile; fileRef = 8633AAFE5B8E46F58C7F02BE /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/iupdatehandler.h */; };
+		45D1321F7FC0466F85A990AF /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivsthostapplication.h */ = {isa = PBXBuildFile; fileRef = 69DDB4215D4C427A81A0FF6B /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivsthostapplication.h */; };
+		4CD87A62CFF74DA1AE62B0F2 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/funknown.h */ = {isa = PBXBuildFile; fileRef = BE5A7A36CB5A42509FCA0589 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/funknown.h */; };
+		4DF06848AAC44DA7BD1338F2 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/icloneable.h */ = {isa = PBXBuildFile; fileRef = 2B6E0562EB7349E892B5FC22 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/icloneable.h */; };
+		6027140BC67D4CEB8D135AD2 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ipluginbase.h */ = {isa = PBXBuildFile; fileRef = D5765FC40A914C34BEBF2F06 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ipluginbase.h */; };
+		612B0F913DB843F3872B9A75 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/istringresult.h */ = {isa = PBXBuildFile; fileRef = CBB4CCF8F40C49B68BACDA9D /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/istringresult.h */; };
+		65418BD859B14C7A890EF341 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/coreiids.cpp */ = {isa = PBXBuildFile; fileRef = 14C0FF5CEE11497E9F602763 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/coreiids.cpp */; };
+		6817F511E767416FB6DBCEBA /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstcomponent.h */ = {isa = PBXBuildFile; fileRef = F831E6FF6EB247BCB5A83245 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstcomponent.h */; };
+		6DBD1F8BAA9E48B88E955156 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/vstpresetkeys.h */ = {isa = PBXBuildFile; fileRef = 3DA5D50A29FA48DB94E9633D /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/vstpresetkeys.h */; };
+		70A512D074404E13A3035686 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstaudioprocessor.h */ = {isa = PBXBuildFile; fileRef = D54AEC03E443433FA9C3B7B5 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstaudioprocessor.h */; };
+		7403B81D4AAE4F4C90CB3014 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstparameterfunctionname.h */ = {isa = PBXBuildFile; fileRef = 570862818709498C8C1E0AAD /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstparameterfunctionname.h */; };
+		74B6268FD5BB4435A318BCC8 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstchannelcontextinfo.h */ = {isa = PBXBuildFile; fileRef = F0A9B185083B4D279132CB8C /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstchannelcontextinfo.h */; };
+		7599F0D9F2FE4A31894318EA /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmessage.h */ = {isa = PBXBuildFile; fileRef = 59063895E94C436AADFC7A52 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmessage.h */; };
+		75CFE0F725F94CB4BFC1D769 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/funknownimpl.h */ = {isa = PBXBuildFile; fileRef = 07B3B311FE7F41D787B5C30B /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/funknownimpl.h */; };
+		77C09ADA72664C519807641F /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstevents.h */ = {isa = PBXBuildFile; fileRef = CE8D0DC3DD3E4A008B9CFFB1 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstevents.h */; };
+		8B08208AE49B46FA929E4325 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstpluginterfacesupport.h */ = {isa = PBXBuildFile; fileRef = 458AFBFD7AA544F59B212ED3 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstpluginterfacesupport.h */; };
+		8C41686379344827B29849D2 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/conststringtable.cpp */ = {isa = PBXBuildFile; fileRef = D183910667CC4BB8A581A9E6 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/conststringtable.cpp */; };
+		8CFB157FE59F47FF9AC73A74 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/falignpop.h */ = {isa = PBXBuildFile; fileRef = 77F78C00112347AE80722186 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/falignpop.h */; };
+		90E9BF435433467BB5596A90 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/fplatform.h */ = {isa = PBXBuildFile; fileRef = 86D416D1B4144C25B5F481DA /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/fplatform.h */; };
+		92398BBA250A4CACB3A4F0A8 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ustring.cpp */ = {isa = PBXBuildFile; fileRef = 952569B5F9084B27AF9681B3 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ustring.cpp */; };
+		9968B7E4E58947BAA968A2ED /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/fvariant.h */ = {isa = PBXBuildFile; fileRef = 13B5FF35649F4F7CBEF3B975 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/fvariant.h */; };
+		9A365BC575A04151915BAEFA /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/geoconstants.h */ = {isa = PBXBuildFile; fileRef = 98778B229F184E05B292DBCF /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/geoconstants.h */; };
+		A1D313D8F2384EC893850EEF /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstremapparamid.h */ = {isa = PBXBuildFile; fileRef = F42160BE38324901BB3342BC /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstremapparamid.h */; };
+		A22E842030804CDF8A03B9B0 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ierrorcontext.h */ = {isa = PBXBuildFile; fileRef = 2E1BD004B3054DE780D77D67 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ierrorcontext.h */; };
+		A4382AA1799144E2813DB182 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstunits.h */ = {isa = PBXBuildFile; fileRef = 3D2307EAE59646E8B8949DA2 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstunits.h */; };
+		AE01DC16449549DA9FD67019 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstcontextmenu.h */ = {isa = PBXBuildFile; fileRef = 324B70D96B93440BB0BDC218 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstcontextmenu.h */; };
+		B942BEC8164548C88E3E01DA /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/vstpshpack4.h */ = {isa = PBXBuildFile; fileRef = 993DD8C37C184EC08E224547 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/vstpshpack4.h */; };
+		BC0E7B3ADA234628939B9B69 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstdataexchange.h */ = {isa = PBXBuildFile; fileRef = 0886570308C84542984EE551 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstdataexchange.h */; };
+		C331AED56F514724A9653A7C /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/gui/iplugview.h */ = {isa = PBXBuildFile; fileRef = E0DA699E01B446A4B2765777 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/gui/iplugview.h */; };
+		C768252E8E524840B51D3399 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstplugview.h */ = {isa = PBXBuildFile; fileRef = 7A7C4B813B0249109C3E8293 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstplugview.h */; };
+		CE4ED43EE1ED479C82239369 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/conststringtable.h */ = {isa = PBXBuildFile; fileRef = 29AEA0CE59784EF4847F5634 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/conststringtable.h */; };
+		D22B51454A75418CB5F11DEE /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstautomationstate.h */ = {isa = PBXBuildFile; fileRef = F9559697DB19415DBE8A618D /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstautomationstate.h */; };
+		D5C0A033C9114579A527C526 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/gui/iplugviewcontentscalesupport.h */ = {isa = PBXBuildFile; fileRef = A854F37ABCF742148636D5A9 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/gui/iplugviewcontentscalesupport.h */; };
+		DA40CA5AEEA2456A9F4D7FC5 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/pluginbasefwd.h */ = {isa = PBXBuildFile; fileRef = 221EE253FDA440018EC83813 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/pluginbasefwd.h */; };
+		DD03BE68999A4E62BCCCF063 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/smartpointer.h */ = {isa = PBXBuildFile; fileRef = 08114A5AF7994C4E81B28149 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/smartpointer.h */; };
+		DF10D3342AD54FB09E112BEF /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstattributes.h */ = {isa = PBXBuildFile; fileRef = 4BA7E446EFEE498DB3B87AB6 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstattributes.h */; };
+		E021E548849C495C83719E48 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ftypes.h */ = {isa = PBXBuildFile; fileRef = 13A829737C464425A7248EC8 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ftypes.h */; };
+		E208DE05B22A4E9496DC7A2D /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ibstream.h */ = {isa = PBXBuildFile; fileRef = 6FF6436019D3423A9F19AF3A /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ibstream.h */; };
+		E3B00A049CC2474B98B0B550 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 382156A77AFA4B01ACB01609 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/CMakeLists.txt */; };
+		EEF94B2B341643B98A5F897D /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstprefetchablesupport.h */ = {isa = PBXBuildFile; fileRef = 14C386FC051441D5802FEBEC /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstprefetchablesupport.h */; };
+		F0510A1736944922BFD2553C /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ipersistent.h */ = {isa = PBXBuildFile; fileRef = 82E5039E1AB845FC985D3E25 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ipersistent.h */; };
+		F2C6E934FF5D460C872AB1A9 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ustring.h */ = {isa = PBXBuildFile; fileRef = 1AC5404346B2492E9454B79B /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ustring.h */; };
+		FBB82665A9974604A76C2637 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ucolorspec.h */ = {isa = PBXBuildFile; fileRef = 89BEFC542D4B4C6AB836705D /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ucolorspec.h */; };
+		FBEB0E1F79A14363836D6013 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmidicontrollers.h */ = {isa = PBXBuildFile; fileRef = 3099F8AB9E484F598FE984B4 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmidicontrollers.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		07CF927BBA1241BBBAB7EF8E /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		63E775B0E5C742B6B21E54D2 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		4ABDD2AC11ED49B9BB54ACAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE62C6AB51D34416B65EAF71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8432385D700A46DDACB74EFF;
+			remoteInfo = ZERO_CHECK;
+		};
+		9A497A519ECE457FB9F31D0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE62C6AB51D34416B65EAF71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B664CD5450A8477398A66FC9;
+			remoteInfo = pluginterfaces;
+		};
+		D8A5245F40EA4279A442C01B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE62C6AB51D34416B65EAF71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8432385D700A46DDACB74EFF;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DEF930F13846808D7D3A2A /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivsteditcontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivsteditcontroller.h; path = vst/ivsteditcontroller.h; sourceTree = SOURCE_ROOT; };
+		07B3B311FE7F41D787B5C30B /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/funknownimpl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = funknownimpl.h; path = base/funknownimpl.h; sourceTree = SOURCE_ROOT; };
+		07E4718FD64F4FEAAA192235 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstrepresentation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstrepresentation.h; path = vst/ivstrepresentation.h; sourceTree = SOURCE_ROOT; };
+		08114A5AF7994C4E81B28149 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/smartpointer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = smartpointer.h; path = base/smartpointer.h; sourceTree = SOURCE_ROOT; };
+		0886570308C84542984EE551 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstdataexchange.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstdataexchange.h; path = vst/ivstdataexchange.h; sourceTree = SOURCE_ROOT; };
+		13A829737C464425A7248EC8 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ftypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftypes.h; path = base/ftypes.h; sourceTree = SOURCE_ROOT; };
+		13B5FF35649F4F7CBEF3B975 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/fvariant.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fvariant.h; path = base/fvariant.h; sourceTree = SOURCE_ROOT; };
+		14C0FF5CEE11497E9F602763 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/coreiids.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = coreiids.cpp; path = base/coreiids.cpp; sourceTree = SOURCE_ROOT; };
+		14C386FC051441D5802FEBEC /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstprefetchablesupport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstprefetchablesupport.h; path = vst/ivstprefetchablesupport.h; sourceTree = SOURCE_ROOT; };
+		15425C7030004E3F98C17273 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstinterappaudio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstinterappaudio.h; path = vst/ivstinterappaudio.h; sourceTree = SOURCE_ROOT; };
+		1AC5404346B2492E9454B79B /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ustring.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ustring.h; path = base/ustring.h; sourceTree = SOURCE_ROOT; };
+		221EE253FDA440018EC83813 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/pluginbasefwd.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pluginbasefwd.h; path = base/pluginbasefwd.h; sourceTree = SOURCE_ROOT; };
+		255D2DA5FC3B49CAB0563631 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmidilearn.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstmidilearn.h; path = vst/ivstmidilearn.h; sourceTree = SOURCE_ROOT; };
+		29AEA0CE59784EF4847F5634 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/conststringtable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = conststringtable.h; path = base/conststringtable.h; sourceTree = SOURCE_ROOT; };
+		2B6E0562EB7349E892B5FC22 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/icloneable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = icloneable.h; path = base/icloneable.h; sourceTree = SOURCE_ROOT; };
+		2E1BD004B3054DE780D77D67 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ierrorcontext.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ierrorcontext.h; path = base/ierrorcontext.h; sourceTree = SOURCE_ROOT; };
+		3099F8AB9E484F598FE984B4 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmidicontrollers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstmidicontrollers.h; path = vst/ivstmidicontrollers.h; sourceTree = SOURCE_ROOT; };
+		324B70D96B93440BB0BDC218 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstcontextmenu.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstcontextmenu.h; path = vst/ivstcontextmenu.h; sourceTree = SOURCE_ROOT; };
+		382156A77AFA4B01ACB01609 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3B56CA7F33CA46FF979162C0 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/vsttypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vsttypes.h; path = vst/vsttypes.h; sourceTree = SOURCE_ROOT; };
+		3B7455F6A2704EF39E3141A5 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstparameterchanges.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstparameterchanges.h; path = vst/ivstparameterchanges.h; sourceTree = SOURCE_ROOT; };
+		3D2307EAE59646E8B8949DA2 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstunits.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstunits.h; path = vst/ivstunits.h; sourceTree = SOURCE_ROOT; };
+		3DA5D50A29FA48DB94E9633D /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/vstpresetkeys.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstpresetkeys.h; path = vst/vstpresetkeys.h; sourceTree = SOURCE_ROOT; };
+		458AFBFD7AA544F59B212ED3 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstpluginterfacesupport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstpluginterfacesupport.h; path = vst/ivstpluginterfacesupport.h; sourceTree = SOURCE_ROOT; };
+		4BA7E446EFEE498DB3B87AB6 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstattributes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstattributes.h; path = vst/ivstattributes.h; sourceTree = SOURCE_ROOT; };
+		570862818709498C8C1E0AAD /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstparameterfunctionname.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstparameterfunctionname.h; path = vst/ivstparameterfunctionname.h; sourceTree = SOURCE_ROOT; };
+		59063895E94C436AADFC7A52 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmessage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstmessage.h; path = vst/ivstmessage.h; sourceTree = SOURCE_ROOT; };
+		69DDB4215D4C427A81A0FF6B /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivsthostapplication.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivsthostapplication.h; path = vst/ivsthostapplication.h; sourceTree = SOURCE_ROOT; };
+		6FF6436019D3423A9F19AF3A /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ibstream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ibstream.h; path = base/ibstream.h; sourceTree = SOURCE_ROOT; };
+		77F78C00112347AE80722186 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/falignpop.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = falignpop.h; path = base/falignpop.h; sourceTree = SOURCE_ROOT; };
+		7A7C4B813B0249109C3E8293 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstplugview.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstplugview.h; path = vst/ivstplugview.h; sourceTree = SOURCE_ROOT; };
+		82E5039E1AB845FC985D3E25 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ipersistent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ipersistent.h; path = base/ipersistent.h; sourceTree = SOURCE_ROOT; };
+		8633AAFE5B8E46F58C7F02BE /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/iupdatehandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iupdatehandler.h; path = base/iupdatehandler.h; sourceTree = SOURCE_ROOT; };
+		86D416D1B4144C25B5F481DA /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/fplatform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fplatform.h; path = base/fplatform.h; sourceTree = SOURCE_ROOT; };
+		89BEFC542D4B4C6AB836705D /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ucolorspec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ucolorspec.h; path = base/ucolorspec.h; sourceTree = SOURCE_ROOT; };
+		952569B5F9084B27AF9681B3 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ustring.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ustring.cpp; path = base/ustring.cpp; sourceTree = SOURCE_ROOT; };
+		98778B229F184E05B292DBCF /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/geoconstants.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = geoconstants.h; path = base/geoconstants.h; sourceTree = SOURCE_ROOT; };
+		993DD8C37C184EC08E224547 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/vstpshpack4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstpshpack4.h; path = vst/vstpshpack4.h; sourceTree = SOURCE_ROOT; };
+		A854F37ABCF742148636D5A9 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/gui/iplugviewcontentscalesupport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iplugviewcontentscalesupport.h; path = gui/iplugviewcontentscalesupport.h; sourceTree = SOURCE_ROOT; };
+		AF99BA669E9E43D78E2DE77A /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B16A4618832A412AB58FE914 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/futils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = futils.h; path = base/futils.h; sourceTree = SOURCE_ROOT; };
+		B1B2ABF981B04B92B4D931E7 /* pluginterfaces */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libpluginterfaces.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B441AAE31AF245E19FB70CC2 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/vstspeaker.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstspeaker.h; path = vst/vstspeaker.h; sourceTree = SOURCE_ROOT; };
+		BE5A7A36CB5A42509FCA0589 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/funknown.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = funknown.h; path = base/funknown.h; sourceTree = SOURCE_ROOT; };
+		C2D05146CC3B476F8DB064C6 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/falignpush.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = falignpush.h; path = base/falignpush.h; sourceTree = SOURCE_ROOT; };
+		CBB4CCF8F40C49B68BACDA9D /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/istringresult.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = istringresult.h; path = base/istringresult.h; sourceTree = SOURCE_ROOT; };
+		CE8D0DC3DD3E4A008B9CFFB1 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstevents.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstevents.h; path = vst/ivstevents.h; sourceTree = SOURCE_ROOT; };
+		D183910667CC4BB8A581A9E6 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/conststringtable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = conststringtable.cpp; path = base/conststringtable.cpp; sourceTree = SOURCE_ROOT; };
+		D21B50EC988C46AAA2D2EA83 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/fstrdefs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fstrdefs.h; path = base/fstrdefs.h; sourceTree = SOURCE_ROOT; };
+		D54AEC03E443433FA9C3B7B5 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstaudioprocessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstaudioprocessor.h; path = vst/ivstaudioprocessor.h; sourceTree = SOURCE_ROOT; };
+		D5765FC40A914C34BEBF2F06 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ipluginbase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ipluginbase.h; path = base/ipluginbase.h; sourceTree = SOURCE_ROOT; };
+		D9664BCE133B4FE0912A8ECA /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/typesizecheck.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = typesizecheck.h; path = base/typesizecheck.h; sourceTree = SOURCE_ROOT; };
+		DB4E450383E14C788318A5D2 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstnoteexpression.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstnoteexpression.h; path = vst/ivstnoteexpression.h; sourceTree = SOURCE_ROOT; };
+		DEB5807F049649CDBE791D71 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstphysicalui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstphysicalui.h; path = vst/ivstphysicalui.h; sourceTree = SOURCE_ROOT; };
+		E0DA699E01B446A4B2765777 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/gui/iplugview.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iplugview.h; path = gui/iplugview.h; sourceTree = SOURCE_ROOT; };
+		E8C6A66600724AF698C170E9 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/keycodes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = keycodes.h; path = base/keycodes.h; sourceTree = SOURCE_ROOT; };
+		EC1C5B99DFE748DBB25FC9AF /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstprocesscontext.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstprocesscontext.h; path = vst/ivstprocesscontext.h; sourceTree = SOURCE_ROOT; };
+		F0A9B185083B4D279132CB8C /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstchannelcontextinfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstchannelcontextinfo.h; path = vst/ivstchannelcontextinfo.h; sourceTree = SOURCE_ROOT; };
+		F42160BE38324901BB3342BC /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstremapparamid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstremapparamid.h; path = vst/ivstremapparamid.h; sourceTree = SOURCE_ROOT; };
+		F6368713B77F4646904507C9 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/funknown.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = funknown.cpp; path = base/funknown.cpp; sourceTree = SOURCE_ROOT; };
+		F831E6FF6EB247BCB5A83245 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstcomponent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstcomponent.h; path = vst/ivstcomponent.h; sourceTree = SOURCE_ROOT; };
+		F9559697DB19415DBE8A618D /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstautomationstate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ivstautomationstate.h; path = vst/ivstautomationstate.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DBCA6D0C41445729FEADB42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E5C8917AE124D54A1AFCDD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CFC4F0995BD452C83FC5A16 = {
+			isa = PBXGroup;
+			children = (
+				F6039AFF4D8A49A7849B7863 /* Libraries */,
+				F58F72D474934FC78977A5FD /* ALL_BUILD */,
+				9F939509B95042C2B7B29BD4 /* Products */,
+				2E5C8917AE124D54A1AFCDD4 /* Frameworks */,
+				6E82271C65C24FCA9FB1B15D /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		6E82271C65C24FCA9FB1B15D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		928E2BBB50AD4CC6B02CE773 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		9F939509B95042C2B7B29BD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1B2ABF981B04B92B4D931E7 /* pluginterfaces */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C93CD6FA2F6543F0A5E1CFDC /* pluginterfaces */ = {
+			isa = PBXGroup;
+			children = (
+				CDD5BEB055254FED949F1961 /* Source Files */,
+				CDEE2A28488D4969A778AF83 /* Header Files */,
+				382156A77AFA4B01ACB01609 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/CMakeLists.txt */,
+			);
+			name = pluginterfaces;
+			sourceTree = "<group>";
+		};
+		CDD5BEB055254FED949F1961 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D183910667CC4BB8A581A9E6 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/conststringtable.cpp */,
+				14C0FF5CEE11497E9F602763 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/coreiids.cpp */,
+				F6368713B77F4646904507C9 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/funknown.cpp */,
+				952569B5F9084B27AF9681B3 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ustring.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		CDEE2A28488D4969A778AF83 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				29AEA0CE59784EF4847F5634 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/conststringtable.h */,
+				77F78C00112347AE80722186 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/falignpop.h */,
+				C2D05146CC3B476F8DB064C6 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/falignpush.h */,
+				86D416D1B4144C25B5F481DA /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/fplatform.h */,
+				D21B50EC988C46AAA2D2EA83 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/fstrdefs.h */,
+				13A829737C464425A7248EC8 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ftypes.h */,
+				BE5A7A36CB5A42509FCA0589 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/funknown.h */,
+				07B3B311FE7F41D787B5C30B /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/funknownimpl.h */,
+				B16A4618832A412AB58FE914 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/futils.h */,
+				13B5FF35649F4F7CBEF3B975 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/fvariant.h */,
+				98778B229F184E05B292DBCF /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/geoconstants.h */,
+				6FF6436019D3423A9F19AF3A /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ibstream.h */,
+				2B6E0562EB7349E892B5FC22 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/icloneable.h */,
+				2E1BD004B3054DE780D77D67 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ierrorcontext.h */,
+				82E5039E1AB845FC985D3E25 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ipersistent.h */,
+				D5765FC40A914C34BEBF2F06 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ipluginbase.h */,
+				CBB4CCF8F40C49B68BACDA9D /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/istringresult.h */,
+				8633AAFE5B8E46F58C7F02BE /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/iupdatehandler.h */,
+				E8C6A66600724AF698C170E9 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/keycodes.h */,
+				221EE253FDA440018EC83813 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/pluginbasefwd.h */,
+				08114A5AF7994C4E81B28149 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/smartpointer.h */,
+				D9664BCE133B4FE0912A8ECA /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/typesizecheck.h */,
+				89BEFC542D4B4C6AB836705D /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ucolorspec.h */,
+				1AC5404346B2492E9454B79B /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ustring.h */,
+				E0DA699E01B446A4B2765777 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/gui/iplugview.h */,
+				A854F37ABCF742148636D5A9 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/gui/iplugviewcontentscalesupport.h */,
+				4BA7E446EFEE498DB3B87AB6 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstattributes.h */,
+				D54AEC03E443433FA9C3B7B5 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstaudioprocessor.h */,
+				F9559697DB19415DBE8A618D /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstautomationstate.h */,
+				F0A9B185083B4D279132CB8C /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstchannelcontextinfo.h */,
+				F831E6FF6EB247BCB5A83245 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstcomponent.h */,
+				324B70D96B93440BB0BDC218 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstcontextmenu.h */,
+				0886570308C84542984EE551 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstdataexchange.h */,
+				01DEF930F13846808D7D3A2A /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivsteditcontroller.h */,
+				CE8D0DC3DD3E4A008B9CFFB1 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstevents.h */,
+				69DDB4215D4C427A81A0FF6B /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivsthostapplication.h */,
+				15425C7030004E3F98C17273 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstinterappaudio.h */,
+				59063895E94C436AADFC7A52 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmessage.h */,
+				3099F8AB9E484F598FE984B4 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmidicontrollers.h */,
+				255D2DA5FC3B49CAB0563631 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmidilearn.h */,
+				DB4E450383E14C788318A5D2 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstnoteexpression.h */,
+				3B7455F6A2704EF39E3141A5 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstparameterchanges.h */,
+				570862818709498C8C1E0AAD /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstparameterfunctionname.h */,
+				DEB5807F049649CDBE791D71 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstphysicalui.h */,
+				458AFBFD7AA544F59B212ED3 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstpluginterfacesupport.h */,
+				7A7C4B813B0249109C3E8293 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstplugview.h */,
+				14C386FC051441D5802FEBEC /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstprefetchablesupport.h */,
+				EC1C5B99DFE748DBB25FC9AF /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstprocesscontext.h */,
+				F42160BE38324901BB3342BC /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstremapparamid.h */,
+				07E4718FD64F4FEAAA192235 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstrepresentation.h */,
+				3D2307EAE59646E8B8949DA2 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstunits.h */,
+				3DA5D50A29FA48DB94E9633D /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/vstpresetkeys.h */,
+				993DD8C37C184EC08E224547 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/vstpshpack4.h */,
+				B441AAE31AF245E19FB70CC2 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/vstspeaker.h */,
+				3B56CA7F33CA46FF979162C0 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/vsttypes.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		F58F72D474934FC78977A5FD /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				928E2BBB50AD4CC6B02CE773 /* CMake Rules */,
+				AF99BA669E9E43D78E2DE77A /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		F6039AFF4D8A49A7849B7863 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				C93CD6FA2F6543F0A5E1CFDC /* pluginterfaces */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B664CD5450A8477398A66FC9 /* pluginterfaces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED10C82927BE4BCFAB06C609 /* Build configuration list for PBXNativeTarget "pluginterfaces" */;
+			buildPhases = (
+				EC89B5D253794707B23F24BF /* Sources */,
+				4DBCA6D0C41445729FEADB42 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3A2B08F962743CF9B1E3910 /* PBXTargetDependency */,
+			);
+			name = pluginterfaces;
+			productName = pluginterfaces;
+			productReference = B1B2ABF981B04B92B4D931E7 /* pluginterfaces */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE62C6AB51D34416B65EAF71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1530;
+			};
+			buildConfigurationList = 430D2C6EB2304CD98F81800F /* Build configuration list for PBXProject "smtg_pluginterfaces" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				63E775B0E5C742B6B21E54D2 /* Debug */,
+				07CF927BBA1241BBBAB7EF8E /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 4CFC4F0995BD452C83FC5A16;
+			projectDirPath = /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces;
+			projectRoot = "";
+			targets = (
+				5C208213928D4BA982D5257F /* ALL_BUILD */,
+				8432385D700A46DDACB74EFF /* ZERO_CHECK */,
+				B664CD5450A8477398A66FC9 /* pluginterfaces */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		285C96227685B634A3866579 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/seokyeongkim/Downloads/VST_SDK/VSTApps/FFTPitchShift/build/vst3sdk/pluginterfaces/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/seokyeongkim/Downloads/VST_SDK/VSTApps/FFTPitchShift/build/vst3sdk/pluginterfaces
+  make -f /Users/seokyeongkim/Downloads/VST_SDK/VSTApps/FFTPitchShift/build/vst3sdk/pluginterfaces/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/seokyeongkim/Downloads/VST_SDK/VSTApps/FFTPitchShift/build/vst3sdk/pluginterfaces
+  make -f /Users/seokyeongkim/Downloads/VST_SDK/VSTApps/FFTPitchShift/build/vst3sdk/pluginterfaces/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7387B1FC8F8A98AFC8EAE711 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/seokyeongkim/Downloads/VST_SDK/VSTApps/FFTPitchShift/build/vst3sdk/pluginterfaces/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/seokyeongkim/Downloads/VST_SDK/VSTApps/FFTPitchShift/build/vst3sdk/pluginterfaces
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/seokyeongkim/Downloads/VST_SDK/VSTApps/FFTPitchShift/build/vst3sdk/pluginterfaces
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC89B5D253794707B23F24BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C41686379344827B29849D2 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/conststringtable.cpp */,
+				65418BD859B14C7A890EF341 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/coreiids.cpp */,
+				18B84D41A231497C8B491029 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/funknown.cpp */,
+				92398BBA250A4CACB3A4F0A8 /* /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ustring.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CC9047808E14B6A873743F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B664CD5450A8477398A66FC9 /* pluginterfaces */;
+			targetProxy = 9A497A519ECE457FB9F31D0A /* PBXContainerItemProxy */;
+		};
+		547FD96391404FF89E2301BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8432385D700A46DDACB74EFF /* ZERO_CHECK */;
+			targetProxy = D8A5245F40EA4279A442C01B /* PBXContainerItemProxy */;
+		};
+		A3A2B08F962743CF9B1E3910 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8432385D700A46DDACB74EFF /* ZERO_CHECK */;
+			targetProxy = 4ABDD2AC11ED49B9BB54ACAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E48AD2E213A4DFD9D066BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2F661549B4DB4A3089922AA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/seokyeongkim/Downloads/VST_SDK/VSTApps/FFTPitchShift/build/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'SMTG_USE_STDATOMIC_H=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/seokyeongkim/Downloads/VST_SDK/vst3sdk,/Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pluginterfaces;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/seokyeongkim/Downloads/VST_SDK/VSTApps/FFTPitchShift/build/build/pluginterfaces.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		44BFE9EDE89245199071EF3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/seokyeongkim/Downloads/VST_SDK/VSTApps/FFTPitchShift/build/build;
+			};
+			name = Release;
+		};
+		8CDD41E1CE3D4D1B947C0505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C6B3FE80325F4DEEB0BCF6B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C974700CBE4C4481BDF292B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk;
+				SYMROOT = /Users/seokyeongkim/Downloads/VST_SDK/VSTApps/FFTPitchShift/build/build;
+			};
+			name = Debug;
+		};
+		E4297CDE5E1C40BA9C199B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/seokyeongkim/Downloads/VST_SDK/VSTApps/FFTPitchShift/build/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'SMTG_USE_STDATOMIC_H=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/seokyeongkim/Downloads/VST_SDK/vst3sdk,/Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pluginterfaces;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/seokyeongkim/Downloads/VST_SDK/VSTApps/FFTPitchShift/build/build/pluginterfaces.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EB5CFCC7873243D6B7E67931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		233E721E471B4C85A15A18D4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CDD41E1CE3D4D1B947C0505 /* Debug */,
+				1E48AD2E213A4DFD9D066BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		430D2C6EB2304CD98F81800F /* Build configuration list for PBXProject "smtg_pluginterfaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C974700CBE4C4481BDF292B3 /* Debug */,
+				44BFE9EDE89245199071EF3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EBE0F3145F1A4D6CBC9BCCD1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B3FE80325F4DEEB0BCF6B4 /* Debug */,
+				EB5CFCC7873243D6B7E67931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ED10C82927BE4BCFAB06C609 /* Build configuration list for PBXNativeTarget "pluginterfaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F661549B4DB4A3089922AA2 /* Debug */,
+				E4297CDE5E1C40BA9C199B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE62C6AB51D34416B65EAF71 /* Project object */;
+}

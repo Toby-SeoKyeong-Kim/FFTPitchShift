@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/cocoahelpers.mm \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/cocoahelpers.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../crect.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../vstguibase.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../vstguidebug.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cpoint.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../ccolor.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../vstguifwd.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../vstkeycode.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../events.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cbuttonstate.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cview.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cgraphicstransform.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cbitmap.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../cresourcedescription.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../pixelbuffer.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../platform/iplatformbitmap.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../platform/../vstguifwd.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../cgbitmap.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../iplatformbitmap.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../platformfwd.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/lib/platform/mac/cocoa/../../../platform/../vstguibase.h

@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/compresseduidescription.cpp \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/../lib/cresourcedescription.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/../lib/vstguibase.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/../lib/vstguidebug.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/compresseduidescription.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/uidescription.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/iuidescription.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/../lib/vstguifwd.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/../lib/cfont.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/../lib/cstring.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/../lib/optional.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/../lib/platform/iplatformstring.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/../lib/platform/../vstguibase.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/uidescriptionfwd.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/cstream.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/uicontentprovider.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/icontentprovider.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/miniz/miniz.c \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/vstgui4/vstgui/uidescription/miniz/miniz.h

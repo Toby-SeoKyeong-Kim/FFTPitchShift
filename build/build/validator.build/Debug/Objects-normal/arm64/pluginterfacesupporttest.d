@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/test/pluginterfacesupporttest.cpp \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/public.sdk/source/main/moduleinit.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ftypes.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/fplatform.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/public.sdk/source/vst/hosting/pluginterfacesupport.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstpluginterfacesupport.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/funknown.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/smartpointer.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/vsttypes.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/fstrdefs.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/public.sdk/source/vst/utility/testing.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/test/itest.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstaudioprocessor.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstcomponent.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/ipluginbase.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/falignpush.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/base/falignpop.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/vstspeaker.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivsteditcontroller.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstmessage.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstattributes.h \
+  /Users/seokyeongkim/Downloads/VST_SDK/vst3sdk/pluginterfaces/vst/ivstunits.h
