@@ -74,7 +74,8 @@ float FFTPitchShiftProcessor::wrapPhase(float phaseIn)
         return fmodf(phaseIn - M_PI, -2.0 * M_PI) + M_PI;
 }
 
-
+// methodology is from this tutorial video
+// https://youtu.be/2p_-jbl6Dyc?si=85sU6lSs_YuvOVyH&t=1741
 void FFTPitchShiftProcessor::processFFT(CArray &x)
 {
     for (size_t i = 0; i < FFTSize / 2; i++)
@@ -203,6 +204,8 @@ void FFTPitchShiftProcessor::SetWindow(int32 winSize)
         HWindow[i] = .5f * (1.f - cosf(2.f * M_PI * i / (float)(winSize - 1)));
     }
 }
+
+//code obtained from this article https://rosettacode.org/wiki/Fast_Fourier_transform#C++
 void FFTPitchShiftProcessor::fft(CArray &x)
 {
         // DFT
@@ -290,6 +293,7 @@ tresult PLUGIN_API FFTPitchShiftProcessor::process (Vst::ProcessData& data)
 			}
 		}
 	}
+    // portamento
     fPitchFollower = fPitchFollowerPrev + 0.1 * (fPitch-fPitchFollowerPrev);
     fPitchRatio = getfPitchRatio(fPitchFollower);
     fPitchFollowerPrev = fPitchFollower;
@@ -302,7 +306,7 @@ tresult PLUGIN_API FFTPitchShiftProcessor::process (Vst::ProcessData& data)
     int32 numChannels = data.inputs[0].numChannels;
     Vst::Sample32** in = data.inputs[0].channelBuffers32;
     Vst::Sample32** out = data.outputs[0].channelBuffers32;
-    if (numSamples ==0)
+    if (numSamples ==0) // initialize necessary buffers
     {
         numSamples = data.numSamples;
         HopSize = numSamples/4;
@@ -358,7 +362,7 @@ tresult PLUGIN_API FFTPitchShiftProcessor::process (Vst::ProcessData& data)
         float tmp;
         
         for (int32 i = 0; i < data.numSamples; i++) {
-            *(pOut+i) =0;
+            *(pOut+i) =0; //initialize output buffer
         }
         for (int32 i = 0; i < data.numSamples; i++) {
             
@@ -366,8 +370,8 @@ tresult PLUGIN_API FFTPitchShiftProcessor::process (Vst::ProcessData& data)
             {
                 if(i<HopSize) 
                 {
-                    *(pOut+i) += CFFTBufferL2[HopSize*3+i].real() * HWindow[HopSize*3+i];
-                    CFFTBufferL2[HopSize*3+i] = *(pIn+i) * HWindow[HopSize*3+i];
+                    *(pOut+i) += CFFTBufferL2[HopSize*3+i].real() * HWindow[HopSize*3+i]; // add previous processed samples to the output buffer
+                    CFFTBufferL2[HopSize*3+i] = *(pIn+i) * HWindow[HopSize*3+i]; // not replace the same samples with new data.
                 }
                 if(i<HopSize*2)
                 {
@@ -399,7 +403,7 @@ tresult PLUGIN_API FFTPitchShiftProcessor::process (Vst::ProcessData& data)
                 }
             }
         }
-        
+        //FFT process
         if(ch ==0)
         {
             fft(CFFTBufferL1);
@@ -435,7 +439,7 @@ tresult PLUGIN_API FFTPitchShiftProcessor::process (Vst::ProcessData& data)
             ifft(CFFTBufferR4);
         }
 
-        
+        //add processed data into output buffer
         for (int32 i = 0; i < data.numSamples; i++) {
             if(ch==0)
             {
@@ -452,9 +456,9 @@ tresult PLUGIN_API FFTPitchShiftProcessor::process (Vst::ProcessData& data)
                 if(i>=HopSize*3) tmp += CFFTBufferR4[i-HopSize*3].real() * HWindow[i-HopSize*3];
             }
             *(pOut+i) += tmp;
-            //*(pOut+i) *= 0.25;
+            //*(pOut+i) *= 0.25; <- doesn't need this, I adjusted window's highest amplitude.
         }
-        
+        //fill the buffer with current samples. Buffer 2, 3 and 4 will be fulfilled at next block.
         for (int32 i = 0; i < data.numSamples; i++) {
             if(ch==0)
             {
